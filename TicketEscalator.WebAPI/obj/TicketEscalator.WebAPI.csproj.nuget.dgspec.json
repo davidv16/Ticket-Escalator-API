@@ -1,0 +1,249 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/david/forritun/Ticket-Escalator-API/TicketEscalator.WebAPI/TicketEscalator.WebAPI.csproj": {}
+  },
+  "projects": {
+    "/home/david/forritun/Ticket-Escalator-API/TicketEscalator.Models/TicketEscalator.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/david/forritun/Ticket-Escalator-API/TicketEscalator.Models/TicketEscalator.Models.csproj",
+        "projectName": "TicketEscalator.Models",
+        "projectPath": "/home/david/forritun/Ticket-Escalator-API/TicketEscalator.Models/TicketEscalator.Models.csproj",
+        "packagesPath": "/home/david/.nuget/packages/",
+        "outputPath": "/home/david/forritun/Ticket-Escalator-API/TicketEscalator.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/david/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/david/forritun/Ticket-Escalator-API/TicketEscalator.Repositories/TicketEscalator.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/david/forritun/Ticket-Escalator-API/TicketEscalator.Repositories/TicketEscalator.Repositories.csproj",
+        "projectName": "TicketEscalator.Repositories",
+        "projectPath": "/home/david/forritun/Ticket-Escalator-API/TicketEscalator.Repositories/TicketEscalator.Repositories.csproj",
+        "packagesPath": "/home/david/.nuget/packages/",
+        "outputPath": "/home/david/forritun/Ticket-Escalator-API/TicketEscalator.Repositories/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/david/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/david/forritun/Ticket-Escalator-API/TicketEscalator.Services/TicketEscalator.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/david/forritun/Ticket-Escalator-API/TicketEscalator.Services/TicketEscalator.Services.csproj",
+        "projectName": "TicketEscalator.Services",
+        "projectPath": "/home/david/forritun/Ticket-Escalator-API/TicketEscalator.Services/TicketEscalator.Services.csproj",
+        "packagesPath": "/home/david/.nuget/packages/",
+        "outputPath": "/home/david/forritun/Ticket-Escalator-API/TicketEscalator.Services/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/david/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/david/forritun/Ticket-Escalator-API/TicketEscalator.WebAPI/TicketEscalator.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/david/forritun/Ticket-Escalator-API/TicketEscalator.WebAPI/TicketEscalator.WebAPI.csproj",
+        "projectName": "TicketEscalator.WebAPI",
+        "projectPath": "/home/david/forritun/Ticket-Escalator-API/TicketEscalator.WebAPI/TicketEscalator.WebAPI.csproj",
+        "packagesPath": "/home/david/.nuget/packages/",
+        "outputPath": "/home/david/forritun/Ticket-Escalator-API/TicketEscalator.WebAPI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/david/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/david/forritun/Ticket-Escalator-API/TicketEscalator.Models/TicketEscalator.Models.csproj": {
+                "projectPath": "/home/david/forritun/Ticket-Escalator-API/TicketEscalator.Models/TicketEscalator.Models.csproj"
+              },
+              "/home/david/forritun/Ticket-Escalator-API/TicketEscalator.Repositories/TicketEscalator.Repositories.csproj": {
+                "projectPath": "/home/david/forritun/Ticket-Escalator-API/TicketEscalator.Repositories/TicketEscalator.Repositories.csproj"
+              },
+              "/home/david/forritun/Ticket-Escalator-API/TicketEscalator.Services/TicketEscalator.Services.csproj": {
+                "projectPath": "/home/david/forritun/Ticket-Escalator-API/TicketEscalator.Services/TicketEscalator.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
