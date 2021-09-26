@@ -2,15 +2,17 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TicketEscalator.Repositories.Contexts;
 
 namespace TicketEscalator.WebAPI.Migrations
 {
     [DbContext(typeof(TicketEscalatorDbContext))]
-    partial class TicketEscalatorDbContextModelSnapshot : ModelSnapshot
+    [Migration("20210926224453_NullableFieldsAdded")]
+    partial class NullableFieldsAdded
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -233,7 +235,7 @@ namespace TicketEscalator.WebAPI.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<int?>("AssigneeID")
+                    b.Property<int>("AssigneeID")
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("CreatorID")
@@ -366,7 +368,9 @@ namespace TicketEscalator.WebAPI.Migrations
                     b.HasOne("TicketEscalator.Models.Entities.Employee", "Assignee")
                         .WithMany("Assignee")
                         .HasForeignKey("AssigneeID")
-                        .HasConstraintName("Assignee_FK");
+                        .HasConstraintName("Assignee_FK")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("TicketEscalator.Models.Entities.Employee", "Creator")
                         .WithMany("Creator")

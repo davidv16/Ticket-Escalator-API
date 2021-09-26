@@ -5,9 +5,9 @@ namespace TicketEscalator.Models.Entities
     public class SparePart
     {
         public int Id { get; set; }
-        public string PartsNumber { get; set; }
+        public string? PartsNumber { get; set; }
         public string Name { get; set; }
-        public int Price { get; set; }
+        public int? Price { get; set; }
 
         // Navigation Properties
         public ICollection<Product> Products { get; set; }

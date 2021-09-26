@@ -7,15 +7,17 @@ namespace TicketEscalator.Models.Entities
     {
         public int Id { get; set; }
         public string Description { get; set; }
-        public double DaytimeHours { get; set; }
-        public double OvertimeHours { get; set; }
-        public int Trip { get; set; }
+        public double? DaytimeHours { get; set; }
+        public double? OvertimeHours { get; set; }
+        public int? Trip { get; set; }
 
         // code generated
         public DateTime RepairDate { get; set; }
 
         // Navigation Properties
         public ICollection<Employee> Employees { get; set; }
+        public Ticket Ticket { get; set; }
+
         
     }
 }

@@ -6,8 +6,8 @@ namespace TicketEscalator.Models.Entities
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public string SerialNumber { get; set; }
-        public int Usage { get; set; }
+        public string? SerialNumber { get; set; }
+        public int? Usage { get; set; }
 
         // Navigation Properties
         public ICollection<Customer> Customers { get; set; }
