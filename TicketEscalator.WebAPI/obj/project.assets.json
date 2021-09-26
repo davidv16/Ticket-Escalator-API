@@ -478,6 +478,11 @@
       "TicketEscalator.Repositories/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.10",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.10",
+          "TicketEscalator.Models": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/TicketEscalator.Repositories.dll": {}
         },
@@ -488,6 +493,10 @@
       "TicketEscalator.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "TicketEscalator.Models": "1.0.0",
+          "TicketEscalator.Repositories": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/TicketEscalator.Services.dll": {}
         },

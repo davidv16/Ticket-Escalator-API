@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RI8vrLvsHcaPwQm0/nrZHJsXnY6/xKG5iBtEjOpKJnJg9Nfbkk+B0wfyJto9DpgeWP0lqBUJVOx0eYfiPZUm8A==",
+  "dgSpecHash": "m674XIyhDD8gGQC1L3xxFnTYOZ/vwPrcqoMbtFNsWoWIgxedXBT8O6MZxaHSIizMR2O5T/FXcWP8ipZiMLf3Sw==",
   "success": true,
   "projectFilePath": "/home/david/forritun/Ticket-Escalator-API/TicketEscalator.WebAPI/TicketEscalator.WebAPI.csproj",
   "expectedPackageFiles": [
